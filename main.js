@@ -102,9 +102,9 @@ function createNewEvent(data){
     newInput.disabled = true;
     newBtnRow.className = 'btn-row';
     newBtnRow.innerHTML = '\
-    <img class="select-btn check-btn" src="/check.png" alt="">\
-    <img class="select-btn edit-btn" src="/edit.png" alt="">\
-    <img class="select-btn delete-btn" src="/delete.png" alt="">';
+    <img class="select-btn check-btn" src="check.png" alt="">\
+    <img class="select-btn edit-btn" src="edit.png" alt="">\
+    <img class="select-btn delete-btn" src="delete.png" alt="">';
     newEvent.append(newInput);
     newEvent.append(newBtnRow);
     document.querySelector('.custom-options').append(newEvent);
